@@ -19,7 +19,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/TIBCOSoftware/TCSTK-common-mods/tibcocloud/cookie"
+	"github.com/TIBCOSoftware/TCSTK-common-mods/utils/cookie"
 )
 
 // Input for the rest call
