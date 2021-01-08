@@ -11,7 +11,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/TIBCOSoftware/TCSTK-common-mods/tibcocloud/cookie"
+	"github.com/TIBCOSoftware/TCSTK-common-mods/utils/cookie"
 	"github.com/TIBCOSoftware/TCSTK-common-mods/utils/rest"
 )
 
