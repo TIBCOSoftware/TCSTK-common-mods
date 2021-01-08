@@ -3,8 +3,8 @@
 * Copyright © 2020. TIBCO Software Inc.
 * This file is subject to the license terms contained
 * in the license file that is distributed with this file.
-*/
-package utils
+ */
+package properties
 
 import (
 	"bufio"
@@ -24,7 +24,7 @@ func ReadPropertiesFile(fileLocation string) (ConfigProperties, error) {
 	if len(fileLocation) == 0 {
 		return config, nil
 	}
-	
+
 	file, err := os.Open(fileLocation)
 	if err != nil {
 		log.Fatal(err)
