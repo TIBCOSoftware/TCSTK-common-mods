@@ -1,4 +1,4 @@
-module github.com/TIBCOSoftware/TCSTK-common-mods/utils
+module github.com/tibco/TCSTK-common-mods/utils
 
 go 1.14
 
